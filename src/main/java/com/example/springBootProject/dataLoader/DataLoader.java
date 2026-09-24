@@ -53,7 +53,7 @@ public class DataLoader implements CommandLineRunner {
         }
     }
 
-
+//ishladi
     private void createUser() {
 
         if (!userRepository.existsByEmail("user@gmail.com")) {
